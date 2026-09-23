@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "questionpunk": {
+      "type": "http",
+      "url": "https://app.questionpunk.com/api/v1"
+    }
+  }
+}

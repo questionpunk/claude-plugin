@@ -1,0 +1,17 @@
+{
+  "name": "questionpunk",
+  "owner": {
+    "name": "QuestionPunk",
+    "email": "jake@questionpunk.com"
+  },
+  "plugins": [
+    {
+      "name": "questionpunk",
+      "source": "./",
+      "description": "Create and review survey drafts, publish requested studies, and analyze QuestionPunk results."
+    }
+  ],
+  "metadata": {
+    "description": "QuestionPunk survey creation, review, management, and research analysis."
+  }
+}
