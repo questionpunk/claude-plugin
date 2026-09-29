@@ -1,6 +1,6 @@
 {
   "name": "questionpunk",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Create and review survey drafts, publish requested studies, and analyze QuestionPunk results.",
   "author": {
     "name": "QuestionPunk"
@@ -10,5 +10,8 @@
     "research",
     "surveys",
     "customer-feedback"
-  ]
+  ],
+  "license": "Proprietary",
+  "icon": "./assets/questionpunk.svg",
+  "privacyPolicyUrl": "https://www.questionpunk.com/legal"
 }
