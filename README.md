@@ -11,7 +11,7 @@ In Claude Code, run:
 
 Use `/mcp` to sign in to your own QuestionPunk account.
 
-This repository distributes the public QuestionPunk plugin package version 1.1.0. It contains four skills, plugin metadata, and the public OAuth MCP endpoint. No API keys or reviewer credentials are required in configuration.
+This repository distributes the public QuestionPunk plugin package version 1.1.1. It contains four skills, plugin metadata, and the public OAuth MCP endpoint. No API keys or reviewer credentials are required in configuration.
 
 Documentation: https://mcp.questionpunk.com/docs
 Support: https://www.questionpunk.com/support
@@ -32,3 +32,7 @@ Sources checked September 19, 2026: [plugin reference](https://code.claude.com/d
 MCP endpoint: https://app.questionpunk.com/api/v1
 
 QuestionPunk: https://app.questionpunk.com
+
+## License
+
+Proprietary. See the [QuestionPunk terms](https://www.questionpunk.com/legal) for the applicable terms.
