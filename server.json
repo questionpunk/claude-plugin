@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.questionpunk/questionpunk",
+  "title": "QuestionPunk",
+  "description": "Create, edit and publish surveys and AI interviews, then read responses and reports.",
+  "version": "1.1.0",
+  "websiteUrl": "https://mcp.questionpunk.com/docs",
+  "icons": [
+    {
+      "src": "https://www.questionpunk.com/images/logo-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.questionpunk.com/api/v1"
+    }
+  ]
+}
