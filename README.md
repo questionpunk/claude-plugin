@@ -16,6 +16,7 @@ QuestionPunk is a survey and research platform with a built-in AI interviewer. R
 The server is hosted. Sign in with your own QuestionPunk account; no API key goes in your configuration.
 
 - Endpoint: `https://app.questionpunk.com/api/v1` (Streamable HTTP, OAuth with dynamic client registration)
+- Official MCP Registry name: `io.github.questionpunk/questionpunk` (entry in `server.json`)
 - Claude web and Desktop: add a custom connector with the endpoint above, then sign in.
 - Claude Code: `claude mcp add --transport http questionpunk https://app.questionpunk.com/api/v1`, then run `/mcp` to sign in.
 
