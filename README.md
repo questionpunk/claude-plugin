@@ -29,7 +29,7 @@ The plugin adds four research skills (create, review, manage and analyze a study
 /plugin install questionpunk@questionpunk
 ```
 
-Then use `/mcp` to sign in to your QuestionPunk account. Skills are in `skills/`; `.claude-plugin/plugin.json` and `.mcp.json` declare the plugin and the HTTP server. This is plugin package version 1.1.1.
+Then use `/mcp` to sign in to your QuestionPunk account. Skills are in `skills/`; `.claude-plugin/plugin.json` and `.mcp.json` declare the plugin and the HTTP server. This is plugin package version 1.1.2.
 
 ## Links
 
