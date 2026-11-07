@@ -2,7 +2,7 @@
 
 Connect Claude to [QuestionPunk](https://www.questionpunk.com) to create, edit and publish surveys and AI interviews, and read responses and reports, from a chat.
 
-QuestionPunk is a survey and research platform with a built-in AI interviewer. Respondents answer by text or voice, and the AI asks follow-up questions on open answers, in 130+ languages for text and 25 for voice. The free plan includes 20 responses and 3,000 AI credits a month.
+QuestionPunk is a survey and research platform with a built-in AI interviewer. Respondents answer by text or voice, and the AI asks follow-up questions on open answers, in 130+ languages for text and 25 for voice. The free plan includes unlimited surveys and responses and 3,000 AI credits a month.
 
 ## What Claude can do with it
 
