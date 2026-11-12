@@ -5,6 +5,8 @@ description: Find QuestionPunk studies, check status, publish an explicitly requ
 
 # Manage a QuestionPunk study
 
+If discovery shows no QuestionPunk tool at all (no `user_get`), the plugin is installed but this account has not signed in to its connector. Say so in one sentence and tell the user how: use the connect card if the host shows one; otherwise, in Claude, open Customize > Connectors, select questionpunk and click Connect; in Claude Code, run `/mcp`; in ChatGPT, open QuestionPunk under Plugins and connect your account; on another host, use its connector settings. Do not search a connector directory, guess at another cause, or use another vendor's tools. When the user replies, look for the tools again and carry on with the request without asking for it again.
+
 1. Use `user_get` for the connected account, then `survey_list` with relevant `search`, `page`, `status`, or verified `teamId`. Host tool prefixes vary; use discovery to resolve these base names. Read the chosen survey with `survey_get` before a mutation. A shared title is not sufficient to choose between different studies.
 2. For a status request, report saved status and use `responses_get_counts` when counts are wanted. Follow pagination rather than claiming the first page is all studies.
 3. To publish, ensure the user has explicitly requested publication of this study in the current context. Reuse that authorization without asking again. Read the current draft, resolve blocking known issues, and call `survey_publish` with its actual `surveyId`. The current publish tool has no version parameter; a fresh read reduces stale edits but does not provide atomic version locking. Do not invent a version argument or promise race protection.
