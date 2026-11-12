@@ -3,6 +3,10 @@
     "questionpunk": {
       "type": "http",
       "url": "https://app.questionpunk.com/api/v1"
+    },
+    "questionpunk-start": {
+      "type": "http",
+      "url": "https://mcp.questionpunk.com/start"
     }
   }
 }
