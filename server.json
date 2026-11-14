@@ -3,7 +3,7 @@
   "name": "io.github.questionpunk/questionpunk",
   "title": "QuestionPunk",
   "description": "Create, edit and publish surveys and AI interviews, then read responses and reports.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "websiteUrl": "https://mcp.questionpunk.com/docs",
   "icons": [
     {
